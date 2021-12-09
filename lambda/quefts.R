@@ -357,7 +357,3 @@ handler = function(body, ...){
   )
     
 }
-
-
-t = handler("/home/christos/Desktop/SCiO_Projects/qvantum/quefts_parameters.json")
-t
