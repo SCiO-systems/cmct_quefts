@@ -160,7 +160,7 @@ post_input_json = toJSON(input_json)
 ## create the headers for the POST call
 header = add_headers(.headers = c('Authorization'= 'SCiO_CROP_LAMBDAS', 'Content-Type' = 'application/json'))
 ## execute the POST call
-response = POST(url = "https://lambda.quefts.scio.services", config = header , body = post_input_json)
+response = POST(url = "https://lambda.qvantum.quefts.scio.services", config = header , body = post_input_json)
 
 ## get the returned data as a R list
 data_list = content(response)
